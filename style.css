@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    }
+    
+    .header {
+    background-color: #1b1b1b;
+    color: white;
+    }
+    
+    .top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 14px;
+    }
+    
+    .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    }
+    
+    .logo img {
+    height: 40px;
+    }
+    
+    .nav-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    }
+    
+    .actions a {
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+    
+    .employer-login {
+    background-color: #333;
+    }
+    
+    .candidate-login {
+    background-color: #ff6600;
+    }
+    
+    .main-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('about-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    }
+    
+    .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    }
+    
+    .breadcrumbs a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    }
+    
+    .breadcrumbs a:hover {
+    text-decoration: underline;
+    }
+    
+    
+    .container {
+    margin: 20px;
+    }
+    
+    .image-container {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    }
+    
+    .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    }
+    
+    .video-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    padding: 20px;
+    border-radius: 10px;
+    }
+    
+    .video-popup video {
+    width: 80vw;
+    max-height: 80vh;
+    border-radius: 10px;
+    }
+    
+    .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    }
+    
+    .close-btn:hover {
+    color: #ff0000;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+    }
+    .card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 20px;
+        text-align: center;
+        width: 200px;
+    }
+    .card img {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .card h3 {
+        margin: 10px 0;
+    }
+    
