@@ -35,27 +35,142 @@
             </nav>
         </div>
     </main>
+   
+    <main>
     <div class="container">
-        <div class="card">
-            <img src="icon1.png" alt="Our Courses Icon">
-            <h3>Our Courses</h3>
-            <p>Gain expertise in Core engineering, IT, BFSI, HR, Digital Marketing, Job Guarantee, and Degree Programs with our diverse course offerings.</p>
+        <div class="container">
+            <div class="text-content">
+                <h1>Upgrade Your Skills, Upgrade Your Career!</h1>
+                <p>
+                    "Welcome to Uptoskills, the leading Skill Tech platform designed to help individuals and organizations succeed in the digital age. We offer a wide range of customized training programs designed to enhance skills and advance careers, and our expert trainers and career advisors work closely with clients to provide ongoing support and guidance."
+                </p>
+            </div>
+            <div class="iframe-container" id="videoContainer">
+                <img src="aboutus.png" alt="Click to Play" id="placeholderImage">
+                <iframe id="videoIframe" src="https://www.youtube.com/embed/qYKuc4XXjHo?si=cqJnMfqPSDE3W6pH" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="card">
-            <img src="icon2.png" alt="Skilled Trainers Icon">
-            <h3>Skilled Trainers</h3>
-            <p>Learn from the best! Our skilled instructors bring real-world experience to the classroom, ensuring practical and effective training.</p>
+    </main>
+
+        <div class="container">
+            <div class="card1">
+                <img src="icon1.png" alt="Our Courses Icon">
+                <h3>Our Courses</h3>
+                <p>Gain expertise in Core engineering, IT, BFSI, HR, Digital Marketing, Job Guarantee, and Degree Programs with our diverse course offerings.</p>
+            </div>
+            <div class="card1">
+                <img src="icon2.png" alt="Skilled Trainers Icon">
+                <h3>Skilled Trainers</h3>
+                <p>Learn from the best! Our skilled instructors bring real-world experience to the classroom, ensuring practical and effective training.</p>
+            </div>
+            <div class="card1">
+                <img src="icon3.png" alt="Free Access Icon">
+                <h3>Free Access</h3>
+                <p>Open to All! We believe in making education accessible to everyone. So no subscription model on Jobs and Courses.</p>
+            </div>
+            <div class="card1">
+                <img src="icon4.png" alt="DIY Shop Icon">
+                <h3>DIY Shop</h3>
+                <p>Our DIY shop is an e-commerce platform offering a wide range of electronic gadgets, projects & stationery at competitive prices.</p>
+            </div>
         </div>
-        <div class="card">
-            <img src="icon3.png" alt="Free Access Icon">
-            <h3>Free Access</h3>
-            <p>Open to All! We believe in making education accessible to everyone. So no subscription model on Jobs and Courses.</p>
+
+        <div class="container">
+            <div class="mission">
+                <h2 style="color: orangered;">Our mission</h2>
+                <h1>At What We Believe</h1>
+                <p>Our mission is to create a positive impact by providing innovative and industry-relevant training programs that unlock new opportunities and empower individuals to succeed in the fast-paced job market.</p>
+            </div>
+    
+            <div class="progress-bars">
+                <div class="progress">
+                    <div class="progress-label">
+                        <span>Experience</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+    
+                <div class="progress">
+                    <div class="progress-label">
+                        <span>Motivation</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+    
+                <div class="progress">
+                    <div class="progress-label">
+                        <span>Quality</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="illustration">
+                <img src="emplyoee.webp" alt="Illustration of a team brainstorming with a light bulb icon">
+            </div>
         </div>
-        <div class="card">
-            <img src="icon4.png" alt="DIY Shop Icon">
-            <h3>DIY Shop</h3>
-            <p>Our DIY shop is an e-commerce platform offering a wide range of electronic gadgets, projects & stationery at competitive prices.</p>
+
+        <div class="container">
+            <div class="heading">
+                <h2 style="color: orangered;">Discover new</h2>
+                <h1>Pulse of UptoSkills</h1>
+                <p>Transforming talent through comprehensive training, seamless deployment, and long-term retention.</p>
+            </div>
+    
+            <div class="cards">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front" style="background-image: url('train.png');">
+                            Train
+                        </div>
+                        <div class="card-back">
+                            <p>Our training programs are designed to equip individuals with the skills they need to excel in their careers.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front" style="background-image: url('headphone.png');">
+                            Deploy
+                        </div>
+                        <div class="card-back">
+                            <p>We ensure seamless deployment of talent into the workforce, bridging the gap between skills and opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front" style="background-image: url('girly.png');">
+                            Retain
+                        </div>
+                        <div class="card-back">
+                            <p>Long-term retention strategies that benefit both employees and organizations for sustained growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+
+    <script>
+        const videoContainer = document.getElementById('videoContainer');
+        const placeholderImage = document.getElementById('placeholderImage');
+        const videoIframe = document.getElementById('videoIframe');
+
+        videoContainer.addEventListener('click', () => {
+            placeholderImage.style.display = 'none';
+            videoIframe.style.display = 'block';
+        });
+    </script>
 </body>
 </html>
